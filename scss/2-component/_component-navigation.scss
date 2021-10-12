@@ -9,15 +9,16 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 2.5rem;
-  border: 1px dotted gold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   &--show {
-      width: 67%;
+    width: 67%;
   }
 
   &-links {
     .header__nav-link {
       padding-left: 2.5rem;
+      padding-bottom: 2rem;
       font-weight: bold;
       font-size: 1.8rem;
       line-height: 2.6rem;
