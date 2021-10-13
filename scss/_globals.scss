@@ -2,6 +2,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 @mixin flex-justify {
   display: flex;
   justify-content: space-between;
