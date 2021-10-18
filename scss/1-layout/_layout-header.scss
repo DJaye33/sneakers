@@ -1,6 +1,7 @@
 .header {
   position: relative;
   padding: 1.9rem 2.4rem;
+  background-color: var(--color-white);
 
   &__content {
     @include flex-justify;

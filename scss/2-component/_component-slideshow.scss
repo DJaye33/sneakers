@@ -1,0 +1,37 @@
+.main__slideshow {
+  position: relative;
+  top: 0;
+  left: 0;
+  .main__slides {
+    height: 100%;
+
+    &--active {
+      display: block;
+    }
+
+    .main__slide {
+      width: 100%;
+    }
+  }
+
+  .main__arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    height: 4rem;
+    width: 4rem;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main__prev {
+    left: 2rem;
+  }
+
+  .main__next {
+    right: 2rem;
+  }
+}
